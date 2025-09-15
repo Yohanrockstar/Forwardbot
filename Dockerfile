@@ -10,7 +10,7 @@ RUN pip3 install --no-cache-dir --upgrade pip && \
     pip3 install --no-cache-dir -r requirements.txt
     
 WORKDIR /app
-
+COPY main.py /app/main.py
 COPY start.sh /app/start.sh
 RUN chmod +x /app/start.sh
 
