@@ -5,7 +5,7 @@ class Config:
     
     API_ID = environ.get("API_ID", "1220805")
     API_HASH = environ.get("API_HASH", "b01d18cba6e1b7f206cc2d3d415ceed1")
-    BOT_TOKEN = environ.get("BOT_TOKEN", "5580538946:AAFKWNQfyL--YKq7utxi8ea1qNQgwXMke_s") 
+    BOT_TOKEN = environ.get("BOT_TOKEN", "6183616178:AAH18UPlOeG_XS0Xry_ddn6cnni83c7HZvM") 
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '865764383').split()]
     BOT_SESSION = environ.get("BOT_SESSION", "bot") 
 
@@ -15,7 +15,7 @@ class Config:
     DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
     
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002823015135'))
-    FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "") # FORCE SUB channel link 
+    FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "https://t.me/infinity_movies2") # FORCE SUB channel link 
     FORCE_SUB_ON = environ.get("FORCE_SUB_ON", "False")  # FORCE SUB ON - OFF
 
 
